@@ -15,7 +15,7 @@ const navigator = createStackNavigator(
     task2: task2
   },
   {
-    initialRouteName: "task2",
+    initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "App",
     },
