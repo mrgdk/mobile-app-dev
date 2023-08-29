@@ -9,8 +9,9 @@ import ImageScreen from "./src/screens/ImageScreen";
 import ScoreScreen from "./src/screens/ScoreScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/ColorScreen";
-import SquareScreen from "./src/screens/SquareScreen";
-
+import SquareScreenReducer from "./src/screens/SquareScreenDup";
+import TextScreen from "./src/screens/TextScreen";
+import PasswordValidation from "./src/screens/PasswordValidation";
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
@@ -22,7 +23,9 @@ const navigator = createStackNavigator(
     Score: ScoreScreen,
     Counter: CounterScreen,
     Color: ColorScreen,
-    Square: SquareScreen
+    Square: SquareScreenReducer,
+    Text: TextScreen,
+    Password: PasswordValidation
   },
   {
     initialRouteName: "Home",
