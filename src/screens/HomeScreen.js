@@ -43,6 +43,14 @@ const HomeScreen = ({navigation}) => {
       title="Go to Password Validation"
       onPress={()=> navigation.navigate("Password")}
     />
+    <Button
+      title="Go to Box Screen"
+      onPress={()=> navigation.navigate("BoxScreen")}
+    />
+    <Button
+      title="Go to task3"
+      onPress={()=> navigation.navigate("task3")}
+    />
     </View>;
 };
 

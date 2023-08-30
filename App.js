@@ -12,6 +12,9 @@ import ColorScreen from "./src/screens/ColorScreen";
 import SquareScreenReducer from "./src/screens/SquareScreenDup";
 import TextScreen from "./src/screens/TextScreen";
 import PasswordValidation from "./src/screens/PasswordValidation";
+import BoxScreen from "./src/screens/BoxScreen";
+import task3 from "./src/screens/task3";
+
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
@@ -25,7 +28,9 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     Square: SquareScreenReducer,
     Text: TextScreen,
-    Password: PasswordValidation
+    Password: PasswordValidation,
+    BoxScreen: BoxScreen,
+    task3: task3
   },
   {
     initialRouteName: "Home",
